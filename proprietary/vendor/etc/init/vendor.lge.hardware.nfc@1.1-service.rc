@@ -1,4 +1,5 @@
 service vendor.lge-nfc-hal-1-1 /vendor/bin/hw/vendor.lge.hardware.nfc@1.1-service
+    interface android.hardware.nfc@1.0::INfc default
     interface android.hardware.nfc@1.1::INfc default
     interface vendor.lge.hardware.nfc@1.1::ILgeNfc_1_1 default
     class hal
